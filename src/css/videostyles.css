@@ -1,5 +1,15 @@
-.player-wrapper react-player
-{
-    text-align: center;
-    
-}
+.player-wrapper {
+    position: relative;
+    padding-bottom: 15vh;
+  }
+  
+  .react-player {
+    position: relative;
+    top: 10%;
+    left: 25%;
+  }
+
+  .main-title{
+      text-align: center;
+  }
+  
