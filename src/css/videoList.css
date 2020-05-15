@@ -1,35 +1,69 @@
+
 .player-list-wrapper
 {
     width: 50vw;
-    height: 30vw;
+    height: 80vh;
     border-top: darkblue 1px dashed;
+    margin: 0;
+    padding: 2em;
+    
 }
 
-.player-list-wrapper li
+
+
+.player-list-wrapper tr
 {
     list-style: none;
+    width: 40vw;
+    height: 30vh;
+    margin: 0;
+
 }
 
-.player-list-wrapper li p.video-title
-{
-    font-weight: bold;
-}
 
-.player-list-wrapper li img
+.player-list-wrapper tr img
 {
     width: 25vw;
     height: 14vw;
+    margin: 0;
 }
 
-.player-list-wrapper ul
+.player-list-wrapper th
 {
-    margin-top: 0;
-    padding: 2vw;
+    margin-top: 2vw;
+
 }
 
-p.video-description
+tr.video-description
 {
     text-align: justify;
     font-weight: lighter;
     
 }
+
+tr.video-title
+{
+    padding: 4em;
+}
+.video-img
+{
+    border: none;
+    background-color: white;
+}
+
+.video-img:hover
+{
+    cursor: pointer;
+}
+
+table.player-list-wrapper
+  {
+      width: 60vw;
+      min-height: 20vh;
+  }
+
+  tr.video-description
+  {
+    min-width: 60vw;
+    min-height: 10vh;
+  }
