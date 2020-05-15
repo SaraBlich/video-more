@@ -1,0 +1,20 @@
+[
+    {
+        "title": "The Witcher 3: Wild Hunt",
+        "description": "The Witcher® 3: Wild Hunt is a story-driven, next-generation open world role-playing game, set in a visually stunning fantasy universe, full of meaningful choices and impactful consequences. You play as Geralt of Rivia, a monster hunter tasked with finding a child from an ancient prophecy.",
+        "url": "http://www.youtube.com/watch?v=0J4h0xdY78A&t=2842s",
+        "thumbnail": "http://i3.ytimg.com/vi/0J4h0xdY78A/maxresdefault.jpg"
+    },
+    {
+        "title": "Ori and the Will of the Wisps",
+        "description": "The game was developed by Moon Studios, a collective organization without a set location. The game's visuals were given an overhaul from the two-dimensional artwork in Blind Forest, to the three-dimensional models played in multilayered backgrounds in Will of the Wisps. The game maintains narrative continuity with Blind Forest and introduces new melee combat.",
+        "url": "http://www.youtube.com/watch?v=eCbyqm9jcBA",
+        "thumbnail": "http://i3.ytimg.com/vi/eCbyqm9jcBA/maxresdefault.jpg"
+    },
+    {
+        "title": "Death Stranding",
+        "description": "The game is set in the United States during the aftermath of the eponymous Death Stranding, which caused destructive creatures from a realm between life and death to begin roaming the Earth. Players control Sam Porter Bridges (Norman Reedus), a courier tasked with delivering supplies to the fractured and isolated colonies that remain and reconnecting them via a wireless communications network.",
+        "url": "http://www.youtube.com/watch?v=NRsvwTydwJo",
+        "thumbnail": "http://i3.ytimg.com/vi/NRsvwTydwJo/maxresdefault.jpg"
+    }
+]

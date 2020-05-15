@@ -1,0 +1,35 @@
+.player-list-wrapper
+{
+    width: 50vw;
+    height: 30vw;
+    border-top: darkblue 1px dashed;
+}
+
+.player-list-wrapper li
+{
+    list-style: none;
+}
+
+.player-list-wrapper li p.video-title
+{
+    font-weight: bold;
+}
+
+.player-list-wrapper li img
+{
+    width: 25vw;
+    height: 14vw;
+}
+
+.player-list-wrapper ul
+{
+    margin-top: 0;
+    padding: 2vw;
+}
+
+p.video-description
+{
+    text-align: justify;
+    font-weight: lighter;
+    
+}
