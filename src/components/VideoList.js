@@ -12,22 +12,24 @@ class VideoList extends Component
         
         return(
             myVideos.map(url => (
-            <ul 
+                <table
+            
             className = "player-list-wrapper"
             key = {url.url}>
-               <li> 
-                   <p className = 'video-title'>{url.title}</p>
-                    <p className = 'video-description'>{url.description} </p>
-                    <br />
-                    <button 
+               <tbody>
+                   <th className = 'video-title'>{url.title}</th>
+                    <tr className = 'video-description'>{url.description} </tr>
+                    <tr>
+                    <button
                         className = 'video-img'
                         onClick = {e => this.props.changeFlag(`${url.url}`, `${url.title}`)} href = '#'>
-                        <img src = {url.thumbnail} 
+                        <img src = {url.thumbnail}
                         alt = 'youtube thumbnail'/>
                     </button>
-                    <br />
-                </li>
-            </ul>
+                    </tr>
+                </tbody>
+            
+            </table>
             ))
         );
     }
