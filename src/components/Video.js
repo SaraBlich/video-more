@@ -12,12 +12,13 @@ const Video = (props) =>
         return(
             <Fragment>
             <div className = "player-wrapper">
+                <h2 className = 'main-title'>{props.flagTitle}</h2>
                 <ReactPlayer
                 className = 'react-player'
                 url = {props.flagOn}
                 controls = {true}
                 />
-                {props.flagTitle}
+                
             </div>
             </Fragment>
         );
